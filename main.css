@@ -1,0 +1,39 @@
+body{
+    background-image: url(images/geordanna-cordero-5NE6mX0WVfQ-unsplash.jpg);
+
+}
+h1{
+    text-align: center;
+    color: brown;
+}
+#p1{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+[type="text"]{
+    background-color: burlywood;
+}
+[type="email"]{
+    background-color: burlywood;
+}
+[type="number"]{
+    background-color: burlywood;
+}
+[type="tel"]{
+    background-color: burlywood;
+}
+.image-container {
+display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  transition: 2s;
+  scalex:(0.5);
+}
+a:hover {
+    color: red;
+}
+button:hover {
+    background-color:aqua
+}
+
